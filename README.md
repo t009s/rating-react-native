@@ -2,6 +2,8 @@
 
 This is a package for implementing simple star rating on components easily with functionality.
 
+![alt text](https://imgur.com/A2RQSya.gif)
+
 ## Installation
 
 Use the package manager npm to install rating-react-native.
