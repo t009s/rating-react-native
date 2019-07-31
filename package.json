@@ -1,0 +1,30 @@
+{
+  "name": "rating-react-native",
+  "version": "1.0.1",
+  "description": "Component for giving ratings",
+  "main": "StarRating.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tushar Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.60.4",
+    "react-native-vector-icons": "^6.6.0"
+  },
+  "keywords": [
+    "react",
+    "react native",
+    "android",
+    "ios",
+    "rating",
+    "stars",
+    "ipad",
+    "iphone",
+    "utility",
+    "component",
+    "native",
+    "star count"
+  ]
+}
