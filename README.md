@@ -41,6 +41,3 @@ export default class App extends Component {
 | starCount | `5` | rendering number of stars |
 | fillColor | `yellow` | color of filled stars or selected stars |
 | color | `black` | color of unfilled stars or unselected stars |
-
-## License
-[MIT]
