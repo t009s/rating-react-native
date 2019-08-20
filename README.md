@@ -11,10 +11,13 @@ Use the package manager npm to install rating-react-native.
 ```bash
 npm install rating-react-native --save
 ```
+```bash
+react-native link
+```
 
 ## Usage
 
-```python
+```javascript
 import React, { Component } from 'react'
 import StarRating from 'rating-react-native'
 
@@ -43,3 +46,7 @@ export default class App extends Component {
 | starCount | `5` | rendering number of stars |
 | fillColor | `yellow` | color of filled stars or selected stars |
 | color | `black` | color of unfilled stars or unselected stars |
+| size | `50` | size of star |
+
+## License
+[MIT]

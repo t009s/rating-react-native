@@ -27,7 +27,7 @@ export default class StarRating extends Component {
 
   render() {
     const { value } = this.state
-    const { starCount, fillColor, color } = this.props
+    const { starCount, fillColor, color, size } = this.props
     const arr = []
     for (let i = 0; i < starCount; i++) {
       arr.push(i + 1)
@@ -37,7 +37,7 @@ export default class StarRating extends Component {
         {arr.map((star) => {
           return (
             <TouchableOpacity key={star} onPress={() => this.onPressStar(star)}>
-              <Icon name={value >= star ? 'star' : 'star-o'} size={50} color={value >= star ? fillColor : color} />
+              <Icon name={value >= star ? 'star' : 'star-o'} size={size} color={value >= star ? fillColor : color} />
             </TouchableOpacity>
           )
         })}
@@ -49,12 +49,14 @@ export default class StarRating extends Component {
 StarRating.propTypes = {
   starCount: PropTypes.number,
   fillColor: PropTypes.string,
-  color: PropTypes.string
+  color: PropTypes.string,
+  size: PropTypes.number,
 }
 StarRating.defaultProps = {
   starCount: 5,
   fillColor: 'yellow',
-  color: 'black'
+  color: 'black',
+  size: 50,
 }
 
 // handleStars = (stars) => {

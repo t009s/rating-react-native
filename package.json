@@ -1,6 +1,6 @@
 {
   "name": "rating-react-native",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "Component for giving ratings",
   "main": "StarRating.js",
   "scripts": {
@@ -9,9 +9,12 @@
   "author": "Tushar Sharma",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-native": "^0.60.4",
+    "prop-types": "15.7.2",
     "react-native-vector-icons": "^6.6.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.6",
+    "react-native": "^0.60.4"
   },
   "keywords": [
     "react",
